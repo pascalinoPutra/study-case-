@@ -3,6 +3,7 @@
 #include<fstream>
 #include"_rumusAyam.h"
 using namespace std;
+
 void gotoxy(int x ,int y)
 {
 	COORD coord;
@@ -156,14 +157,10 @@ istream& operator>>(istream& in, ayam& var)
 			gotoxy(0+i,22);
 			cout<<"=";
 		}
-
 	}
-	
 	return in;
 }
-
 int main()
 {
 	cin>>a;
 }
-
