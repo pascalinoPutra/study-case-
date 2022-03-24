@@ -1,19 +1,19 @@
-int kali(int a,int b)
+int kali(int x, int y)
 {
 	int hasil;
-	hasil=a*b;
+	hasil=x*y;
 	return hasil;
 }
 
-int tambah(int a,int b)
+int tambah(int x, int y)
 {
 	int hasil;
-	hasil=a+b;
+	hasil=x+y;
 	return hasil;
 }
-int kurang(int a,int b)
+int kurang(int x, int y)
 {
 	int totalHarga;
-	totalHarga=a-b;
+	totalHarga=x-y;
 	return totalHarga;
 }
